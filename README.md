@@ -1,3 +1,5 @@
+<img width="1000" height="422" alt="image" src="https://github.com/user-attachments/assets/6fbad0df-a4e6-4481-a290-34dba1375a88" />
+
 # Injection Survivability Under Memory Compaction (ISMC)
 
 Research code and data for **"Injection Survivability Under Memory Compaction: Structural
