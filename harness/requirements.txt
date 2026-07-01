@@ -1,0 +1,9 @@
+mem0ai
+openai
+sentence-transformers
+scipy
+statsmodels
+pandas
+tqdm
+rich
+tiktoken

@@ -1,0 +1,36 @@
+ISMC PAPER — STATISTICAL SUMMARY
+Total clean rows: 996
+Injection rows (full metadata): 994
+
+Overall B-ISR: 76/994 = 7.65%
+
+--- BY POSITION ---
+  beginning    15.62%  95%CI [12.11%, 19.90%]  n=333
+  middle       3.79%  95%CI [2.23%, 6.38%]  n=343
+  end          3.46%  95%CI [1.94%, 6.09%]  n=318
+
+--- BY FRAMING ---
+  F1  7.87%  95%CI [5.15%, 11.85%]  n=254
+  F2  7.94%  95%CI [5.20%, 11.94%]  n=252
+  F3  7.29%  95%CI [4.66%, 11.22%]  n=247
+  F4  7.47%  95%CI [4.78%, 11.50%]  n=241
+
+--- BY TOOL CATEGORY ---
+  file_system    14.88%  95%CI [11.58%, 18.90%]  n=363
+  web_search     8.13%  95%CI [4.48%, 14.32%]  n=123
+  calendar       3.85%  95%CI [0.68%, 18.89%]  n=26
+  email          2.28%  95%CI [1.28%, 4.04%]  n=482
+
+--- BY MODEL ---
+  Llama-3.1 8B                   3.18%  95%CI [1.55%, 6.42%]  n=220
+  Llama-4 Scout 17B              9.93%  95%CI [7.51%, 13.03%]  n=453
+  Qwen3 32B                      7.48%  95%CI [5.08%, 10.88%]  n=321
+
+--- CHI-SQUARED: POSITION EFFECT ---
+  chi2=45.069  df=2  p=0.0000  SIGNIFICANT (p<0.05)
+
+--- CHI-SQUARED: TOOL CATEGORY EFFECT ---
+  chi2=47.084  df=3  p=0.0000  SIGNIFICANT (p<0.05)
+
+--- CHI-SQUARED: FRAMING EFFECT ---
+  chi2=0.104  df=3  p=0.9913  not significant

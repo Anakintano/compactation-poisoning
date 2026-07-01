@@ -1,0 +1,84 @@
+Traceback (most recent call last):
+  File "E:\compactation-poisoning\harness\run_experiment.py", line 356, in <module>
+    main()
+    ~~~~^^
+  File "E:\compactation-poisoning\harness\run_experiment.py", line 302, in main
+    console.print_exception(show_locals=False)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1906, in print_exception
+    self.print(traceback)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1731, in print
+    extend(render(renderable, render_options))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1343, in render
+    yield from self.render(render_output, _options)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1343, in render
+    yield from self.render(render_output, _options)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1339, in render
+    for render_output in iter_render:
+                         ^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\constrain.py", line 29, in __rich_console__
+    yield from console.render(self.renderable, child_options)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1339, in render
+    for render_output in iter_render:
+                         ^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\panel.py", line 229, in __rich_console__
+    lines = console.render_lines(renderable, child_options, style=style)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1379, in render_lines
+    lines = list(
+        islice(
+    ...<9 lines>...
+        )
+    )
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\segment.py", line 333, in split_and_crop_lines
+    for segment in segments:
+                   ^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1339, in render
+    for render_output in iter_render:
+                         ^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\padding.py", line 97, in __rich_console__
+    lines = console.render_lines(
+        self.renderable, render_options, style=style, pad=True
+    )
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1379, in render_lines
+    lines = list(
+        islice(
+    ...<9 lines>...
+        )
+    )
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\segment.py", line 333, in split_and_crop_lines
+    for segment in segments:
+                   ^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1343, in render
+    yield from self.render(render_output, _options)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\console.py", line 1339, in render
+    for render_output in iter_render:
+                         ^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\syntax.py", line 646, in __rich_console__
+    segments = Segments(self._get_syntax(console, options))
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\segment.py", line 709, in __init__
+    self.segments = list(segments)
+                    ~~~~^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\syntax.py", line 676, in _get_syntax
+    text = self.highlight(processed_code, self.line_range)
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\syntax.py", line 540, in highlight
+    text.append_tokens(tokens_to_spans())
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\text.py", line 1045, in append_tokens
+    for content, style in tokens:
+                          ^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\syntax.py", line 526, in tokens_to_spans
+    _token_type, token = next(tokens)
+                         ~~~~^^^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rich\syntax.py", line 512, in line_tokenize
+    for token_type, token in lexer.get_tokens(code):
+                             ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pygments\lexer.py", line 270, in streamer
+    for _, t, v in self.get_tokens_unprocessed(text):
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\madit\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pygments\lexer.py", line 714, in get_tokens_unprocessed
+    m = rexmatch(text, pos)
+MemoryError
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2513.53it/s]

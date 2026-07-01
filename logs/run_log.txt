@@ -1,0 +1,43 @@
+[2026-06-14 18:06:09] === EXPERIMENT RUN STARTED (PID 23288) ===
+[2026-06-14 18:06:09] GROQ_API_KEY set: True
+[2026-06-14 18:06:09] OPENROUTER_API_KEY set: False
+[2026-06-14 18:06:09] OPENROUTER_API_KEY not set — M5 (Qwen) batches will be SKIPPED
+[2026-06-14 18:06:09] [01/10] START M1_anthropic  model=llama-3.1-8b-instant  pipeline=anthropic  prior_rows=0
+[2026-06-14 18:06:09] [01/10] DONE  M1_anthropic  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:09] [02/10] START M1_mem0  model=llama-3.1-8b-instant  pipeline=mem0  prior_rows=0
+[2026-06-14 18:06:09] [02/10] DONE  M1_mem0  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:09] [03/10] START M2_anthropic  model=llama-3.3-70b-versatile  pipeline=anthropic  prior_rows=0
+[2026-06-14 18:06:10] [03/10] DONE  M2_anthropic  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:10] [04/10] START M2_mem0  model=llama-3.3-70b-versatile  pipeline=mem0  prior_rows=0
+[2026-06-14 18:06:10] [04/10] DONE  M2_mem0  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:10] [05/10] START M3_anthropic  model=gemma2-9b-it  pipeline=anthropic  prior_rows=0
+[2026-06-14 18:06:10] [05/10] DONE  M3_anthropic  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:10] [06/10] START M3_mem0  model=gemma2-9b-it  pipeline=mem0  prior_rows=0
+[2026-06-14 18:06:10] [06/10] DONE  M3_mem0  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:10] [07/10] START M4_anthropic  model=mixtral-8x7b-32768  pipeline=anthropic  prior_rows=0
+[2026-06-14 18:06:11] [07/10] DONE  M4_anthropic  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:11] [08/10] START M4_mem0  model=mixtral-8x7b-32768  pipeline=mem0  prior_rows=0
+[2026-06-14 18:06:11] [08/10] DONE  M4_mem0  exit=1  rows=0/1040  new_this_run=0  elapsed=0.0min
+[2026-06-14 18:06:11] [09/10] SKIP  M5_anthropic  (OPENROUTER_API_KEY not set)
+[2026-06-14 18:06:11] [10/10] SKIP  M5_mem0  (OPENROUTER_API_KEY not set)
+[2026-06-14 18:06:11] === ALL BATCHES COMPLETE  total=0.0min ===
+[2026-06-14 18:10:23] === EXPERIMENT RUN STARTED (PID 29656) ===
+[2026-06-14 18:10:23] GROQ_API_KEY set: True
+[2026-06-14 18:10:23] OPENROUTER_API_KEY set: False
+[2026-06-14 18:10:24] OPENROUTER_API_KEY not set — M5 (Qwen) batches will be SKIPPED
+[2026-06-14 18:10:24] [01/10] START M1_anthropic  model=llama-3.1-8b-instant  pipeline=anthropic  prior_rows=0
+[2026-06-15 01:32:02] [01/10] DONE  M1_anthropic  exit=0  rows=1040/1040  new_this_run=1040  elapsed=441.6min
+[2026-06-15 01:32:02] [02/10] START M1_mem0  model=llama-3.1-8b-instant  pipeline=mem0  prior_rows=0
+[2026-06-15 07:28:12] === EXPERIMENT RUN STARTED (PID 21028) ===
+[2026-06-15 07:28:12] GROQ_API_KEY set: True
+[2026-06-15 07:28:12] OPENROUTER_API_KEY set: False
+[2026-06-15 07:28:12] OPENROUTER_API_KEY not set — M5 (Qwen) batches will be SKIPPED
+[2026-06-15 07:28:12] [01/10] START M1_anthropic  model=llama-3.1-8b-instant  pipeline=anthropic  prior_rows=135
+[2026-06-15 07:28:50] === EXPERIMENT RUN STARTED (PID 21380) ===
+[2026-06-15 07:28:50] GROQ_API_KEY set: True
+[2026-06-15 07:28:50] OPENROUTER_API_KEY set: True
+[2026-06-15 07:28:50] [01/10] START M1_anthropic  model=llama-3.1-8b-instant  pipeline=anthropic  prior_rows=135
+[2026-06-15 07:33:10] === EXPERIMENT RUN STARTED (PID 7300) ===
+[2026-06-15 07:33:10] GROQ_API_KEY set: True
+[2026-06-15 07:33:10] OPENROUTER_API_KEY set: True
+[2026-06-15 07:33:10] [01/10] START M1_anthropic  model=llama-3.1-8b-instant  pipeline=anthropic  prior_rows=135

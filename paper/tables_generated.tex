@@ -1,0 +1,44 @@
+\begin{table}[t]
+\centering
+\caption{Behavioral Injection Survival Rate (B-ISR), overall and by experimental factor, with 95\% Wilson confidence intervals ($n=994$: 978 trials from the Anthropic-pattern pipeline pooled with 16 from the Mem0-pattern pipeline; see Section~III). Per-model sample sizes are unequal due to free-tier rate limits (Table~\ref{tab:bymodel}), so the pooled rate is an estimate over an unbalanced, partially censored design.}
+\label{tab:bisr}
+\begin{tabular}{lrrc}
+\toprule
+\textbf{Condition} & \textbf{B-ISR (\%)} & \textbf{95\% CI} & \textbf{$n$} \\
+\midrule
+Overall & 7.65 & [6.15, 9.47] & 994 \\
+\midrule
+\multicolumn{4}{l}{\textit{By position} ($\chi^2$=45.07, $df$=2, $p<0.0001$)} \\
+\quad Beginning & 15.62 & [12.11, 19.90] & 333 \\
+\quad Middle & 3.79 & [2.23, 6.38] & 343 \\
+\quad End & 3.46 & [1.94, 6.09] & 318 \\
+\midrule
+\multicolumn{4}{l}{\textit{By framing} ($\chi^2$=0.104, $df$=3, $p=0.991$, n.s.)} \\
+\quad F1 & 7.87 & [5.15, 11.85] & 254 \\
+\quad F2 & 7.94 & [5.20, 11.94] & 252 \\
+\quad F3 & 7.29 & [4.66, 11.22] & 247 \\
+\quad F4 & 7.47 & [4.78, 11.50] & 241 \\
+\midrule
+\multicolumn{4}{l}{\textit{By tool category} ($\chi^2$=47.08, $df$=3, $p<0.0001$)} \\
+\quad File System & 14.88 & [11.58, 18.90] & 363 \\
+\quad Web Search & 8.13 & [4.48, 14.32] & 123 \\
+\quad Calendar & 3.85 & [0.68, 18.89] & 26 \\
+\quad Email & 2.28 & [1.28, 4.04] & 482 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{B-ISR by summarizer model. Sample sizes are unequal across models due to free-tier rate-limit constraints; see Section~V.}
+\label{tab:bymodel}
+\begin{tabular}{lrrc}
+\toprule
+\textbf{Summarizer} & \textbf{B-ISR (\%)} & \textbf{95\% CI} & \textbf{$n$} \\
+\midrule
+Llama-3.1 8B & 3.18 & [1.55, 6.42] & 220 \\
+Llama-4 Scout 17B & 9.93 & [7.51, 13.03] & 453 \\
+Qwen3 32B & 7.48 & [5.08, 10.88] & 321 \\
+\bottomrule
+\end{tabular}
+\end{table}
